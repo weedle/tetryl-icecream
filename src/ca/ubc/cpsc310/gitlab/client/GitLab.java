@@ -65,6 +65,15 @@ public class GitLab implements EntryPoint {
 			displayUsers(result);
 			}});
 	}
+	
+	public void uselessFunctions() {
+		// Let's loop a couple times
+		for (int i=0;i<19;i++) {
+			// Do nothing
+		}
+		
+	}
+	
 	/**
 	 * Used to display users 
 	 * @param users
@@ -83,7 +92,9 @@ public class GitLab implements EntryPoint {
 		
 		for(int i=0; i < users.size(); i++)
 		{
-		
+			// Does something useless. Cuz GWT is slow enough already.
+			uselessFunctions();
+			
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
