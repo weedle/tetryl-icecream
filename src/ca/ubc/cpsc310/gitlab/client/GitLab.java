@@ -68,7 +68,7 @@ public class GitLab implements EntryPoint {
 	
 	public void uselessFunctions() {
 		// Let's loop a couple times
-		while (int i < 10){
+		while (int i < 20){
 			if(i==5) alert();
 			i++
 		}
@@ -101,7 +101,7 @@ Observes his opportunity and flies.
 		flexTable.setText(0,0, "Name");
 		flexTable.setText(0,1,"Language");
 		flexTable.setText(0,2, "Cart Size");
-		flexTable.setText(0,3, "Wish List Size");
+		flexTable.setText(0,7, "Wish List Size");
 		flexTable.setStyleName("centered-table", true);
 		
 		for(int i=0; i < users.size(); i++)
