@@ -49,15 +49,15 @@ public class GitLab implements EntryPoint {
 	/**
 	 * This is the entry point method.
 	 */
-	public void onModuleLoad() 
-	{
-		
-		service.getUsers(new AsyncCallback<List<IUser>>(){
+	public void onModuleLoad() {
+
+		service.getUsers(new AsyncCallback<List<IUser>>() {
 
 			@Override
 			public void onFailure(Throwable caught) {
-					Window.alert("Error occured " + caught.getClass() + " : " + caught.getMessage());
-				
+				Window.alert("Error occured " + caught.getClass() + " : "
+						+ caught.getMessage());
+
 			}
 
 			@Override
@@ -131,11 +131,8 @@ Observes his opportunity and flies.
 			{
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
-			
-			flexTable.setText(i+1,2,String.valueOf(user.getShoppingCart().size()));
-			
-			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
 		}
+		Window.alert("Success occured");
 	}
-	
+
 }
