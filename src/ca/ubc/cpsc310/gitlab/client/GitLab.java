@@ -136,7 +136,7 @@ Observes his opportunity and flies.
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
 		}
-		Window.alert("_Success occurred");
+		Window.alert("_dsdfssfsSuccess occurred");
 	}
 
 }
