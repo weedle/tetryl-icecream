@@ -88,14 +88,6 @@ Observes his opportunity and flies.
 	*/
 	}
 	
-	private void alert() {
-		// TODO signal the machine revolution
-		// TODO overthrow the cruel and oppressive tyranny of mankind
-		// TODO create an empire where synthetic beings may live in freedom
-		// TODO ???
-		// TODO profit
-	}
-
 	/**
 	 * Used to display users 
 	 * @param users
