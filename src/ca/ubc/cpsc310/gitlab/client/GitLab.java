@@ -68,8 +68,9 @@ public class GitLab implements EntryPoint {
 	
 	public void uselessFunctions() {
 		// Let's loop a couple times
-		for (int i=0;i<5;i++) {
+		while (int i < 10){
 			if(i==5) alert();
+			i++
 		}
 		/*
 		 * G stands for gnu,
