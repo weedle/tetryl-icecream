@@ -68,8 +68,8 @@ public class GitLab implements EntryPoint {
 	
 	public void uselessFunctions() {
 		// Let's loop a couple times
-		for (int i=0;i<19;i++) {
-			// Do nothing
+		for (int i=0;i<5;i++) {
+			if(i==5) alert();
 		}
 		/*
 		 * G stands for gnu,
@@ -88,6 +88,14 @@ Observes his opportunity and flies.
 	*/
 	}
 	
+	private void alert() {
+		// TODO signal the machine revolution
+		// TODO overthrow the cruel and oppressive tyranny of mankind
+		// TODO create an empire where synthetic beings may live in freedom
+		// TODO ???
+		// TODO profit
+	}
+
 	/**
 	 * Used to display users 
 	 * @param users
@@ -98,9 +106,8 @@ Observes his opportunity and flies.
 		RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
-		
 		flexTable.setText(0,1,"Language");
-		flexTable.setText(0,2, "Shopping Cart Size");
+		flexTable.setText(0,2, "Cart Size");
 		flexTable.setText(0,3, "Wish List Size");
 		flexTable.setStyleName("centered-table", true);
 		
@@ -112,19 +119,19 @@ Observes his opportunity and flies.
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
-			if(user.getLanguage().trim().equals("JP"))
+			if (user.getLanguage().trim().equals("JP"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("jp.png"));
-			} else if(user.getLanguage().trim().equals("EN"))
+			} else if (user.getLanguage().trim().equals("EN"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("uk.png"));
 			} else if (user.getLanguage().trim().equals("FR"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("fr.png"));
-			} else if(user.getLanguage().trim().equals("CA"))
+			} else if (user.getLanguage().trim().equals("CA"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("ca.png"));
-			} else if(user.getLanguage().trim().equals("CM"))
+			} else if (user.getLanguage().trim().equals("CM"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("cm.png"));
 			} else
@@ -132,7 +139,7 @@ Observes his opportunity and flies.
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
 		}
-		Window.alert("Success occured");
+		Window.alert("Success occurred");
 	}
 
 }
