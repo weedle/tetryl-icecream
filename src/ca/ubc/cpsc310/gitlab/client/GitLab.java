@@ -32,6 +32,7 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
+ * hello there
  * Entry point classes define <code>onModuleLoad()</code>.
  */
 public class GitLab implements EntryPoint {
@@ -135,7 +136,7 @@ Observes his opportunity and flies.
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
 		}
-		Window.alert("Success occurred");
+		Window.alert("_Success occurred");
 	}
 
 }
