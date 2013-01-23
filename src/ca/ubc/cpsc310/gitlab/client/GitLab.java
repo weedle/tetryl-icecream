@@ -55,8 +55,8 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onFailure(Throwable caught) {
-				//Window.alert("Error occured " + caught.getClass() + " : "
-				//		+ caught.getMessage());
+				Window.alert("Error occured " + caught.getClass() + " : "
+						+ caught.getMessage());
 
 			}
 
@@ -109,6 +109,9 @@ Observes his opportunity and flies.
 			// Does something useless. Cuz GWT is slow enough already.
 			uselessFunctions();
 			
+			Window.alert("Error occured " + caught.getClass() + " : "
+					+ caught.getMessage());
+
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
