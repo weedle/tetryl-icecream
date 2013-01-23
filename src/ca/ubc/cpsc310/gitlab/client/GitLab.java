@@ -69,7 +69,7 @@ public class GitLab implements EntryPoint {
 	
 	public void uselessFunctions() {
 		// Let's loop a couple times
-		while (int i < 30){
+		while (int i < 20){
 			if(i==5) alert();
 			i++
 		}
