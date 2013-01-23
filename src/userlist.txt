@@ -1,23 +1,23 @@
-Delia Doss,EN,0,2
-Willow Walston,EN,8,1
-Rubin Roseborough,FR,0,0
-Lavern Labarre,EN,0,0
-Eldridge Easterwood,FR,2,1
-Tania Tipping,FR,0,0
-Damien Dandy,FR,0,1
-Tom Touchstone,EN,3,0
-Coming Invasion,En,4,0
-Annie Allaire,EN,3,1
-Machelle Maston,EN,0,5
-Constance Cupps,FR,0,3
-Jonell Joslin,FR,0,1
-Tana Theel,EN,2,6
-Florencio Friley,FR,0,0
-Lacy Lepley,EN,0,2
-Larita Luedke,FR,0,0
-Destiny Denicola,EN,0,0
-Denita Decato,FR,0,0
-Shanika Summerall,EN,0,5
+David Albright,EN,0,2
+Nathan Fillion,EN,8,1
+Kuz'kina Mat',CA,0,0
+Mercury Stonewell,CA,0,0
+Helen Beatrix Potter,FR,2,1
+Sidney George Reilly,FR,0,0
+Cave Johnson,FR,0,1
+Sigmund Rosenblum,EN,3,0
+Altaïr Ibn-La'Ahad,CA,3,1
+Eguchi Meijin,JP,0,5
+Mercury Stonewell,FR,0,3
+Grant Masaru Imahara,JP,0,1
+Marvin Heemeyer,EN,2,6
+Ciel Phantomhive,JP,0,0
+Coming Invasion,CM,4,0
+Yuichiro Hikari,JP,0,2
+Kaskad Alfa Zenit,FR,0,0
+John Thomas Draper,CA,0,0
+Michael Thomas Lynn,FR,0,0
+Craig Harrison,EN,0,5
+Rob Furlong,CA,1,0
 End I. S. Near,EN,0,3
-Delicia Dorado,FR,1,0
 

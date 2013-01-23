@@ -71,7 +71,21 @@ public class GitLab implements EntryPoint {
 		for (int i=0;i<19;i++) {
 			// Do nothing
 		}
-		
+		/*
+		 * G stands for gnu,
+Whose weapons of defense
+Are long, sharp, curling horns, and common sense.
+To these he adds a name so short and strong,
+That even hardy Boers pronounce it wrong.
+How often on a bright autumnal day
+The pious people of Pretoria say,
+“Come, let us hunt the–” Then no more is heard
+But sounds of strong men struggling with a word.
+Meanwhile, the distant gnu with grateful eyes
+Observes his opportunity and flies.
+
+– Hilaire Belloc
+	*/
 	}
 	
 	/**
@@ -98,12 +112,21 @@ public class GitLab implements EntryPoint {
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
-			if(user.getLanguage().trim().equals("EN"))
+			if(user.getLanguage().trim().equals("JP"))
+			{
+				flexTable.setWidget(i+1, 1, new Image("jp.png"));
+			} else if(user.getLanguage().trim().equals("EN"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("uk.png"));
 			} else if (user.getLanguage().trim().equals("FR"))
 			{
 				flexTable.setWidget(i+1, 1, new Image("fr.png"));
+			} else if(user.getLanguage().trim().equals("CA"))
+			{
+				flexTable.setWidget(i+1, 1, new Image("ca.png"));
+			} else if(user.getLanguage().trim().equals("CM"))
+			{
+				flexTable.setWidget(i+1, 1, new Image("cm.png"));
 			} else
 			{
 				flexTable.setText(i+1,1,user.getLanguage());
